@@ -1,0 +1,791 @@
+body{
+    font-family: Montserrat;
+    background-image: none;
+    background-color: #180A25;
+    background-size: auto;
+    background-position: center;
+    color: white;
+}
+.navbar{
+    display: flex;
+    border-radius: 3.75rem;
+    border: 1px solid #1CD6FF;
+    background: rgba(24, 10, 37, 0.90);
+    position: relative;
+    top: 3.62rem;
+    width: 44rem;
+    height: 2.4375rem;
+    margin: auto;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.logo{
+    display: inline-flex;
+    position: relative;
+    width: 3.375rem;
+    height: 1.5625rem;
+    margin-left: 0.88rem;
+    align-items: center;
+    left: 1rem;
+}
+.navbar ul{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+    left: 1.06rem;
+}
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+    margin: 0 0.88rem;
+    align-items: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.learn .le{
+    text-decoration: underline;
+    color: blue;
+}
+.start .st{
+    color: white;
+    width: 6.5rem;
+    height: 1.8125rem;
+    border-radius: 2.5rem;
+    background: linear-gradient(90deg, #8A1BF6 0%, #C03087 51.35%, #C03087 51.36%, #F94612 100%, #F91212 100%);
+}
+.sec1{
+    position: relative;
+    display: block;
+    top: 23.19rem;
+    text-align: center;
+    height: 23.5rem;
+}
+.sec1 h6{
+    text-transform: uppercase;
+    background: linear-gradient(92deg, #8A1BF6 0%, #B562FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    margin: 0;
+
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.31875rem;
+
+}
+.pro{
+    background: linear-gradient(90deg, #FF00B8 0%, #B312E0 37.67%, #DE08C9 71.17%, #8A1BF6 105.43%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec1 h1{
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.3125rem;
+    position: relative;
+    display: block;
+    margin: 0.38rem auto 1.19rem auto;
+}
+.bt{
+    border-radius: 1.0625rem;
+    background: #500F90;
+    width: 22.3125rem;
+    height: 3rem;
+    text-decoration: none;
+    color: white;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.sec2{
+    position: relative;
+    display: block;
+    top: 30.38rem;
+    left: 15.38rem;
+    text-align: left;
+    align-items: center;
+    width: 70rem;
+}
+.sec2 h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.125rem; 
+}
+.a1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    width: 65rem;
+    position: relative;
+    display: block;
+}
+.we{
+    background: linear-gradient(96deg, #FF00F5 8.59%, #9B3EF6 22.23%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.id{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    width: 65rem;
+    position: relative;
+    display: block;
+}
+.head{
+    color: #8A1BF6;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.B{
+    color: #B672F8;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-right: 15.44rem;
+    top: 6rem;
+    position: relative;
+}
+hr{
+    position: relative;
+    display: block;
+    width: 69.25013rem;
+    height: 0rem;
+    background: #D9D9D9;
+    margin-bottom: 0;
+    border-width: 0.000000000000001px;
+}
+.a2{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+
+    padding-top: 2.62rem;
+}
+.frame1{
+    width: 9.125rem;
+    height: 3.1875rem;
+    padding-left: 13.75rem;
+    padding-top: 2.81rem;
+    position: relative;
+    display: inline-block;
+}
+.frame2{
+    width: 9.125rem;
+    height: 3.1875rem;
+    padding-left: 4rem;
+    position: relative;
+    display: inline-block;
+}
+.sec3{
+    align-items: center;
+}
+.sec4{
+    top: 6rem;
+    width: 90rem;
+}
+h4{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+
+    width: 31.125rem;
+    padding-left: 10rem;
+    margin-bottom: 1.25rem;
+}
+.id2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    width: 46.6875rem;
+    padding-left: 10rem;
+    margin: 0;
+}
+.id2a{
+    color: #B065FA;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    padding-left: 10rem;
+    margin: 0;
+    position: relative;
+    display: block;
+    top: 0.8rem;
+}
+.row1{
+    position: relative;
+    display: flex;
+    padding-left: 10rem;
+    padding-right: 25rem;
+    justify-content: space-between;
+    top: 6rem;
+    align-items: left;
+}
+.col{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 6rem;
+    padding-left: 10rem;
+    width: fit-content;
+    
+}
+.para1{
+    position: relative;
+    display: inline-block;
+    width: 20rem;
+    margin-right: 6rem;
+    top: 1.25rem;
+    margin-bottom: 3rem;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.line{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 8rem;
+}
+.down{
+    position: relative;
+    display: inline-block;
+    left: 2rem;
+    top: 10rem;
+    padding-left: 4rem;
+    height: 4.4375rem;
+}
+.build{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+    width: 37.8125rem;
+    position: relative;
+    display: block;
+    left: 10.12rem;
+    margin: 0;
+}
+.hi1{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+    width: 37.8125rem;
+    position: relative;
+    display: block;
+    left: 10.12rem;
+    margin: 0;
+}
+.build1:hover{
+    color: rgba(255, 255, 255, 0.20);
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+
+.hi{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+.build1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+.hi1:hover{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+.build2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+    width: 37.8125rem;
+    position: relative;
+    display: block;
+    left: 10.12rem;
+    margin: 0;
+    font-size: 3.125rem;
+    width: 43.25rem;
+}
+.build2:hover{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+.pro1{
+    background: linear-gradient(90deg, #6E01D8 9.46%, #F10685 38.98%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+    width: 50rem;
+    height: 50rem;
+}
+.pro1:hover{
+    background: #FEFEFF;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+.pro2:hover{
+    background: linear-gradient(90deg, rgba(110, 1, 216, 0.50) 41.18%, rgba(237, 6, 136, 0.50) 93.57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+.idm{
+    color: #D9D9D9;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    width: 38rem;
+    position: relative;
+    display: block;
+    left: 10.12rem;
+    margin: 0;
+    top: 1rem;
+}
+.sec5{
+    position: relative;
+    display: block;
+    top: 24rem;
+    width: 90rem;
+    background-color: none;
+}
+.imiot{
+    color: #973BF1;
+    font-family: Montserrat;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+
+.photocol {
+    width: 100%;
+    top: 7rem;
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+}
+.photocol::-webkit-scrollbar{
+    width: 0;
+    cursor: pointer;
+}
+.photocol .s{
+    cursor: none;
+    margin: 0.2%;
+    margin-right: 1.5rem;
+}
+.s{
+    width: 369px;
+    height: 264px;
+    flex-shrink: 0;
+}
+.sec6{
+    position: relative;
+    display: block;
+    top: 38rem;
+    width: 90rem;
+}
+.P{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    display: inline;
+    top: 10rem;
+    left: 14.3rem;
+}
+.f{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+
+    position: relative;
+    display: inline;
+    width: 30rem;
+    top: 4.5rem;
+    left: 16.3rem;
+
+}
+.fs{
+    color: #D9D9D9;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+
+    position: relative;
+    display: inline;
+    width: 10rem;
+    top: 6.3rem;
+    align-items: left;
+    text-align: left;
+}
+.q{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    top: 4.25rem;
+    left: 2rem;
+    padding-left: 12rem;
+    right: auto;
+}
+.r{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+
+    position: relative;
+    display: inline-block;
+    top: 4rem;
+    left: 13.9rem;
+    width: 18.25rem;
+    justify-content: space-between;
+}
+.r1{
+    position: relative;
+    display: inline-block;
+    top: 1rem;
+    left: 13.9rem;
+    width: 18.25rem;
+    justify-content: space-between;
+    
+    color: #D9D9D9;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+.lin{
+    color: #8A1BF6;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-decoration-line: underline;
+
+    position: relative;
+    display: block;
+    top: 39rem;
+    left: 72rem;
+    width: 10rem; 
+}
+.sec7{
+    position: relative;
+    display: block;
+    top: 35rem;
+    margin-top: 8rem;
+    width: 100%;
+    height: auto;
+}
+.roi{
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: left;
+    justify-items: left;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 6rem;
+    padding-top: 1rem;
+    left: 3.63rem;
+    top: 4.94rem;
+    margin: 0;
+}
+.ro{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    justify-content: space-between;
+    top: 4.2rem;
+    width: 33.5rem;
+    left: 4.25rem;
+    margin: 0;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+.sec8{
+    position: relative;
+    display: block;
+    width: 50rem;
+    height: 103rem;
+    top: 47.38rem;
+}
+.set{
+    position: relative;
+    display: block;
+    left: 10.12rem;
+
+}
+.jam{
+    top: 0;
+    position: relative;
+    display: block;
+    margin-top: 1.94rem;
+    margin-bottom: 0rem;
+
+    color: #D9D9D9;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+.cl{
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    width: 26rem;
+    align-items: center;
+    text-align: left;
+    height: 2.5rem;
+    margin-bottom: 1.31rem;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.ting{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: 14rem;
+    left: 28.9rem;
+
+    color: #B065FA;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.sec9{
+    position: relative;
+    display: block;
+    width: 93rem;
+    left: 0;
+    right: 0;
+    top: 32rem;
+    margin-top: 5.13rem;
+    border-top: 1px solid #746A6A;
+    height: 23.8125rem;
+    align-items: left; 
+}
+.iot{
+    position: absolute;
+    display: inline-block;
+    top: 8rem;
+    left: 5.31rem;
+    padding-bottom: 4.5rem;
+    width: 15.4375rem;
+    height: 8.5625rem;
+}
+.pg1{
+    position: relative;
+    display: inline-block;
+    width: 14rem;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    left: 33.56rem;
+    height: 1.875rem;
+    margin: 0.3rem 0;
+
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+.spc{
+    position: relative;
+    display: inline-block;
+    width: 14rem;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 7.5rem;
+    left: 33.56rem;
+    margin: 0.5rem 0;
+
+    background: linear-gradient(93deg, rgba(138, 27, 246, 0.70) 0%, rgba(238, 118, 197, 0.70) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem;
+}
+.ftr{
+    position: relative;
+    display: inline-flex;
+    height: 2.75rem;
+    padding: 0.4375rem 4.3125rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36rem;
+    padding-bottom: 0;
+
+    border-top: 1px solid #746A6A;
+    height: 2.75rem;
+    top: 30.44rem;
+    width: 84rem;
+}
+.end{
+
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+
+    align-items: left;
+    text-align: left;
+}
+.done{
+    width: 11.5625rem;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 0;
+}
+.bye{
+    color: #8A1BF6;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    margin: 0;
+}
